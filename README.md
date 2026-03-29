@@ -5,22 +5,28 @@
 
 ---
 
-## 🔐 Password Security Analyzer
+# 🔐 Password Security Analyzer
 
-A Python + PyQt application that analyzes password strength and estimates cracking time.
+A Python-based password analysis tool with GUI that checks strength, estimates crack time, and simulates attacks.
 
-### 🚀 Features:
-- Real-time password strength detection  
-- Crack time estimation  
-- Dictionary attack simulation  
-- Suggestions for stronger passwords  
-- Clean dark UI  
+## 🚀 Features
+- Strength detection (real-time)
+- Crack time estimation
+- Dictionary attack using wordlist
+- Password improvement suggestions
+- Dark-themed GUI
 
-### 🛠 Tech Used:
-- Python  
-- PyQt5  
-- Hashing (MD5)  
-- Regex  
+## 🧠 How it works
+- Uses regex for validation  
+- Calculates combinations for brute-force time  
+- Uses MD5 hashing for comparison  
+- Checks against common passwords  
+
+## ▶️ How to Run
+
+```bash
+pip install PyQt5
+python app.py
 
 👉 [View Project](https://github.com/aryamansawhney89-glitch/aryaman-portfolio)
 
